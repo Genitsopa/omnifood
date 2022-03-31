@@ -1,3 +1,0 @@
-# omnifood
-
-Projekti ne Github
