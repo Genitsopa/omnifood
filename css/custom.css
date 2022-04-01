@@ -56,7 +56,7 @@
 
 .hero-section {
     background-color: #fdf2e9;
-    padding: 4.8rem 0 3.2rem 0;
+    padding: 4.8rem 0 9.6rem 0;
 }
 
 .hero {
@@ -66,7 +66,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     row-gap: 9.6rem;
-    column-gap: 8rem;
     align-items: center;
 }
 
@@ -115,3 +114,67 @@
 }
 
 /*  --- HERO End ---  */
+
+
+/* --- Steps Start --- */
+
+.steps {
+    padding: 0 4.8rem;
+}
+
+.steps-header {
+    padding: 9.6rem 0 6.4rem 0;
+}
+
+.step-header-description {
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #cf711f;
+}
+
+.steps-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    row-gap: 6.4rem;
+    column-gap: 4.8rem;
+}
+
+.steps-content img {
+    width: 35%;
+}
+
+.step-no {
+    font-size: 6.2rem;
+    font-weight: 700;
+    color: #ddd;
+    margin-bottom: 2.4rem;
+}
+
+.step-title {
+    margin-bottom: 3.2rem;
+}
+
+.step-description {
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 1.05;
+}
+
+.step-img {
+    display: flex;
+    justify-content: center;
+}
+
+ /*.step-img::before {
+    content: "";
+    display: block;
+    width: 60%;
+    padding-bottom: 60%;
+    background-color: #fdf2e9;
+
+} */
+
+/* --- Steps End --- */
