@@ -119,9 +119,7 @@
 /* --- Steps Start --- */
 
 .steps {
-    max-width: 120rem;
     padding: 0 4.8rem;
-    margin: 0 auto;
 }
 
 .steps-header {
@@ -133,14 +131,6 @@
     font-weight: 600;
     text-transform: uppercase;
     color: #cf711f;
-}
-
-.steps-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-items: center;
-    row-gap: 6.4rem;
-    column-gap: 4.8rem;
 }
 
 .steps-content img {
@@ -198,5 +188,134 @@
     z-index: -1;
 }
 
-
 /* --- Steps End --- */
+
+
+
+/* --- Feature-In Start --- */
+
+.feature-in-header {
+    text-align: center;
+}
+
+.feature-in-header .step-header-description {
+    display: block;
+    color: #888;
+    margin-bottom: 2.4rem;
+}
+
+.feature-in-images {
+    display: flex;
+    justify-content: space-around;
+}
+
+.fi-image {
+    height: 3.2rem;
+    filter:brightness(0);
+    opacity: 50%;
+}
+
+/* --- Feature-In End --- */
+
+
+
+/* --- Testimonials Start --- */
+
+.testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+    row-gap: 4.8rem;
+    column-gap: 3.2rem;
+}
+
+.testimonials-gallery {
+    background-color: #fdf2e9;
+}
+
+.testimonials-header {
+    padding-bottom: 3.2rem;
+}
+
+.testimonials-body figure {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+}
+
+.author-img img {
+    max-width: 20%;
+    border-radius: 50%;
+}
+
+.author-testimonial {
+    font-size: 1.8rem;
+    line-height: 1.5;
+    letter-spacing: 1.2;
+}
+
+.author-info {
+    font-size: 1.4rem;
+    color: #999;
+}
+
+/* --- Gallery --- */
+
+.galley {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 3.2rem;
+    column-gap: 2.4rem;
+}
+
+.container-img {
+    overflow: hidden;
+}
+
+.gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: all 0.3s;
+}
+
+.container-img img:hover {
+    transform: scale(1.05);
+}
+
+/* --- Testimonials End --- */
+
+
+/* --- Meals Start --- */
+
+.meals-header {
+    text-align: center;
+}
+
+.meals-footer {
+    text-align: center;
+}
+
+.meals-recepies {
+    display: inline-block;
+    font-size: 1.6rem;
+    color: #e67e22;
+    letter-spacing: 1.05px;
+    text-decoration: none;
+    border-bottom: 1px solid currentColor;
+    font-weight: 500;
+    padding: 0.4rem;
+}
+
+.meals-recepies:hover {
+    border: none;
+    border-bottom: 1px solid transparent;
+}
+
+.meals-header span {
+    display: block;
+    margin-bottom: 2.4rem;
+    text-decoration: none;
+}
+
+/* --- Meals End --- */
