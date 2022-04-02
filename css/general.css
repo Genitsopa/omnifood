@@ -71,7 +71,7 @@ html {
 body {
     font-family:"Rubik", sans-serif;
     font-weight: 400;
-    color: #333;
+    color: #555;
 }
 
 .primary-header,
@@ -80,6 +80,7 @@ body {
     line-height: 1.05;
     letter-spacing: -0.5px;
     font-weight: 700;
+    color: #333;
 }
 
 .primary-header {
