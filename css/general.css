@@ -94,6 +94,10 @@ body {
     grid-template-columns: repeat(3,1fr);
 }
 
+strong {
+    font-weight: 500;
+}
+
 .primary-header,
 .secondary-header,
 .ternary-header {
