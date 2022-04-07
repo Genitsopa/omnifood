@@ -94,6 +94,10 @@ body {
     grid-template-columns: repeat(3,1fr);
 }
 
+.grid-5 {
+    grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+}
+
 strong {
     font-weight: 500;
 }
@@ -122,6 +126,7 @@ strong {
     margin-bottom: 1.2rem;
 }
 
+.btn,
 .btn:link , 
 .btn :visited {
     display: inline-block;

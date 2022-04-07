@@ -399,7 +399,7 @@
     gap: 1.6rem;
 }
 
-ion-icon {
+p ion-icon {
     color: #cf711f;
 }
 
@@ -441,7 +441,7 @@ ion-icon {
 .pricing-card {
     border: 2px solid #fdf2e9;
     border-radius: 8px;
-    padding: 3.2rem 2.4rem;
+    padding: 4.6rem;
     position: relative;
 }
 
@@ -455,13 +455,14 @@ ion-icon {
     display: inline-block;
     width: 150px;
     position: absolute;
-    top: 2rem;
-    right: -5rem;
+    top: 3rem;
+    right: -4rem;
     padding: 0.8rem 1.2rem;
     text-align: center;
     font-size: 1.4rem;
-    font-weight: 500;
+    font-weight: 700;
     background-color: #fcc419;
+    color: #333;
     transform: rotate(45deg);
 }
 
@@ -492,8 +493,7 @@ ion-icon {
     display: flex;
     flex-direction: column;
     gap: 0.8rem;
-
-    margin-bottom: 3.2rem;
+    margin-bottom: 4.8rem;
 }
 
 .pricing-card-body p {
@@ -508,7 +508,7 @@ ion-icon {
     font-weight: 600;
     font-size: 2rem;
     text-transform: uppercase;
-    margin-bottom: 3.2rem;
+    margin-bottom: 2.4rem;
 }
 
 .pricing-card-header .price-text {
@@ -544,7 +544,7 @@ ion-icon {
 .pricing-footer {
     display: flex;
     justify-content: center;
-    padding-top: 4.8rem;
+    margin: 4.8rem 0rem 6.4rem 0rem;
 }
 
 .pricing-footer p {
@@ -556,6 +556,195 @@ ion-icon {
 
 /* --- Features Start --- */
 
+.features {
+    display: flex;
+    gap: 3.2rem;
+    padding: 4.8rem;
+}
+
+.features ion-icon {
+    color: #e67e22;
+    height: 3.2rem;
+    width: 3.2rem;
+    background-color: #fdf2e9;
+    margin-bottom: 3.2rem;
+    padding: 1.6rem;
+    border-radius: 50%;
+}
+
+.features h3 {
+    font-size: 2.4rem;
+    color: #333;
+    font-weight: 700;
+    margin-bottom: 1.6rem;
+}
+
+.features p {
+    font-size: 1.8rem;
+    line-height: 1.8;
+}
+
 /* --- Features End --- */
 
 /* --- Pricing & Features End --- */
+
+
+
+/* --- CTA Start --- */
+
+.cta {
+    margin-bottom: 12.8rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.cta-form {
+    padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+    color: #45260a;
+}
+
+.cta-form h2 {
+    color: inherit;
+}
+
+.cta-text {
+    font-size: 1.8rem;
+    line-height: 1.8;
+    margin-bottom: 4.8rem;
+}
+
+.cta-form {
+    padding: 4.8rem;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2.4rem;
+    column-gap: 3.6rem;
+}
+
+form label {
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-bottom: 1.2rem;
+}
+
+form input, form select {
+    width: 100%;
+    padding: 1.2rem;
+    font-size: 1.8rem;
+    font-family: inherit;
+    color: inherit;
+    border: none;
+    background-color: #fdf2e9;
+    border-radius: 9px;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 10%);
+}
+
+.btn-form {
+    background-color: #45260a;
+    color: #fdf2e9;
+    align-self: end;
+    padding: 1.2rem;
+    border:none;
+}
+
+.btn-form:hover {
+    background-color: white;
+    color: #555;
+}
+
+.cta-img {
+    background-image: url(../content/img/eating.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* --- CTA End --- */
+
+
+/* --- Footer Start --- */
+
+.footer {
+    padding: 12.8rem 0;
+    border-top: 1px solid #eee;
+  }
+  
+.grid--footer {
+    grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+}
+  
+  .logo-col {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer-logo {
+    display: block;
+    margin-bottom: 3.2rem;
+  }
+
+  .footer-logo img {
+      height: 2.2rem;
+  }
+  
+  .social-links {
+    list-style: none;
+    display: flex;
+    gap: 2.4rem;
+  }
+  
+  .social-icon {
+    height: 2.4rem;
+    width: 2.4rem;
+  }
+  
+  .copyright {
+    font-size: 1.4rem;
+    line-height: 1.6;
+    color: #767676;
+    margin-top: auto;
+  }
+  
+  .footer-heading {
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-bottom: 4rem;
+  }
+  
+  .contacts {
+    font-style: normal;
+    font-size: 1.6rem;
+    line-height: 1.6;
+  }
+  
+  .address {
+    margin-bottom: 2.4rem;
+  }
+  
+  .footer-nav {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+  }
+  
+  .footer-link:link,
+  .footer-link:visited {
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: #767676;
+    transition: all 0.3s;
+  }
+  
+  .footer-link:hover,
+  .footer-link:active {
+    color: #555;
+  }
+
+/* --- Footer End --- */
